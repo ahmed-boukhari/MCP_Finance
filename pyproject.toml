@@ -5,8 +5,11 @@ description = "MCP server implementation for yahoo finance integration"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "llvmlite>=0.44.0",
     "mcp",
+    "numba>=0.61.2",
     "pyyaml>=6.0.2",
+    "typer==0.16.0",
     "ujson>=5.11.0",
     "v20",
     "yfinance>=0.2.62",
