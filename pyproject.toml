@@ -9,9 +9,12 @@ dependencies = [
     "mcp",
     "numba>=0.61.2",
     "pyyaml>=6.0.2",
+    "scipy>=1.16.1",
+    "textblob>=0.19.0",
     "typer==0.16.0",
     "ujson>=5.11.0",
     "v20",
+    "vadersentiment>=3.3.2",
     "yfinance>=0.2.62",
 ]
 
